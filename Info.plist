@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>FrameSaver</string>
+    <key>CFBundleDisplayName</key>
+    <string>FrameSaver</string>
+    <key>CFBundleGetInfoString</key>
+    <string>Saves the first and last frames of a video file.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.blt.framesaver</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2018, BLT Communications.</string>
+
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mov</string>
+				<string>qt</string>
+				<string>qtl</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Movie-QuickTime.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>application/x-quicktimeplayer</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Movie-QuickTime</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>MooV</string>
+				<string>moov</string>
+				<string>qtlk</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>QTPMovieDocument</string>
+		</dict>
+		<dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>mp4</string>
+                <string>mpg4</string>
+                <string>mqv</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>Movie-MPEG4.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>audio/mp4</string>
+                <string>video/mp4</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Movie-MPEG4</string>
+            <key>CFBundleTypeOSTypes</key>
+            <array>
+                <string>mpg4</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSHandlerRank</key>
+            <string>Alternate</string>
+            <key>NSDocumentClass</key>
+            <string>QTPMovieDocument</string>
+        </dict>
+	</array>
+</dict>
+</plist>
